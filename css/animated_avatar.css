@@ -1,0 +1,34 @@
+html, body, section, article, div, label, input, form, header,
+h1, h2, h3, p, ul, strong, em, a, li, button, img {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: inherit;
+  font: inherit;
+  font-family: inherit;
+  text-decoration: inherit;
+  // text-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+.root {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  background: #fff;
+}
+
+.svgContainer {
+  width: 300px;
+  height:300px;
+}
